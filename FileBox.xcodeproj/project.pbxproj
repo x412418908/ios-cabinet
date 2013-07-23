@@ -44,7 +44,6 @@
 		9C485321179E59B7003772B0 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C485320179E59B7003772B0 /* SystemConfiguration.framework */; };
 		9C485323179E6AC5003772B0 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C485322179E6AC5003772B0 /* Default@2x.png */; };
 		9C485325179E6B96003772B0 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C485324179E6B96003772B0 /* Default@2x.png */; };
-		9C48532B179E6FF3003772B0 /* menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C48532A179E6FF3003772B0 /* menu.png */; };
 		9C8CFB9617991B7900E4C0C7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C8CFB9517991B7900E4C0C7 /* UIKit.framework */; };
 		9C8CFB9817991B7900E4C0C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C8CFB9717991B7900E4C0C7 /* Foundation.framework */; };
 		9C8CFB9A17991B7900E4C0C7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C8CFB9917991B7900E4C0C7 /* CoreGraphics.framework */; };
@@ -131,9 +130,6 @@
 		9C485320179E59B7003772B0 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		9C485322179E6AC5003772B0 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		9C485324179E6B96003772B0 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		9C485326179E6BC2003772B0 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		9C485328179E6BC8003772B0 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		9C48532A179E6FF3003772B0 /* menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = menu.png; path = ../../../Desktop/menu.png; sourceTree = "<group>"; };
 		9C8CFB9217991B7900E4C0C7 /* FileBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FileBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C8CFB9517991B7900E4C0C7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		9C8CFB9717991B7900E4C0C7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -265,8 +261,6 @@
 		9C8CFB8917991B7900E4C0C7 = {
 			isa = PBXGroup;
 			children = (
-				9C485328179E6BC8003772B0 /* Default-568h@2x.png */,
-				9C485326179E6BC2003772B0 /* Default.png */,
 				9C485324179E6B96003772B0 /* Default@2x.png */,
 				9C485322179E6AC5003772B0 /* Default@2x.png */,
 				9C485320179E59B7003772B0 /* SystemConfiguration.framework */,
@@ -322,7 +316,6 @@
 		9C8CFB9C17991B7900E4C0C7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				9C48532A179E6FF3003772B0 /* menu.png */,
 				9C8CFBBA179CCEDB00E4C0C7 /* icon */,
 				9C8CFB9D17991B7900E4C0C7 /* FileBox-Info.plist */,
 				9C8CFB9E17991B7900E4C0C7 /* InfoPlist.strings */,
@@ -452,7 +445,6 @@
 				9C485315179E57E7003772B0 /* wifiFtpSettingViewController.xib in Resources */,
 				9C485323179E6AC5003772B0 /* Default@2x.png in Resources */,
 				9C485325179E6B96003772B0 /* Default@2x.png in Resources */,
-				9C48532B179E6FF3003772B0 /* menu.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
